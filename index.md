@@ -85,6 +85,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Lighter Core Power Bank | Provides power for the robot | 17.99$ | <a href="https://www.amazon.com/INIU-High-Speed-Flashlight-Powerbank-Compatible/dp/B07CZDXDG8?th=1"> Link </a> |
 | HDMI Video Capture | Captures and converts camera content | 9.98$ | <a href="https://www.amazon.com/Audio-Express-AXHDCAP-Broadcasting-Conference/dp/B0C2MDTY8P?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2WUJZ46ZAD8LN&gQT=1"> Link </a> |
 | Raspberry Pi 4 Starter Kit | Central computer for the robot | 119.95$ | <a href="https://www.canakit.com/raspberry-pi-4-starter-kit.html?srsltid=AfmBOoqIiOnjV3ixvPdr8wr3ZbNEp-_VpxdP3QmLGXa8yDdUkf-fmDZp"> Link </a> |
+| Amazon Keyboard and Mouse | Required to manually control Pi | 22.49$ | <a href="https://www.amazon.com/AmazonBasics-Wireless-Keyboard-Mouse-Combo/dp/B0787CVBWP"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components. 
