@@ -78,14 +78,33 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Breadboard | Reusable prototyping circuit board for circuit drafts, planning, and testing | 0.68$ | <a href="https://www.cytron.io/p-breadboard-8.5x5.5cm-400-holes"> Link </a> |
+| Robot Chassis Kit | Backbone of robot hardware, holds robot together and supplies the wheels | 13.99$ | <a href="https://www.amazon.com/Smart-Chassis-Motors-Encoder-Battery/dp/B01LXY7CM3"> Link </a> |
+| Raspberry Pi Model Case | Camera for the robot to locate red ball | 8.99$ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 3 Pack Proximity Sensor | Proximity Sensor for robot to detect surroundings | 6.99$ | <a href="https://www.amazon.com/Ferwooh-Ultrasonic-Distance-Measuring-Mounting/dp/B0D1MDP9V3"> Link </a> |
+| Lighter Core Power Bank | Provides power for the robot | 17.99$ | <a href="https://www.amazon.com/INIU-High-Speed-Flashlight-Powerbank-Compatible/dp/B07CZDXDG8?th=1"> Link </a> |
+| HDMI Video Capture | Captures and converts camera content | 9.98$ | <a href="https://www.amazon.com/Audio-Express-AXHDCAP-Broadcasting-Conference/dp/B0C2MDTY8P?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2WUJZ46ZAD8LN&gQT=1"> Link </a> |
+| Raspberry Pi 4 Starter Kit | 119.95$ | <a href="https://www.canakit.com/raspberry-pi-4-starter-kit.html?srsltid=AfmBOoqIiOnjV3ixvPdr8wr3ZbNEp-_VpxdP3QmLGXa8yDdUkf-fmDZp"> Link </a> |
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
+One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components. 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
+
+# Starter Project: Mini Retro Arcade Console
+
+An advanced soldering project that I completed as a warm-up. Just like the name implies, this is a LED based arcade console with a retro fit. Two 8x8 LED matrix boards serve as a game screen, and 6 buttons were soldered in for the user to play. The acrylic casing protects the console and adds an aesthetic feel to the console, making it feel more solid and easier to hold. It is powered by 3 AAA batteries and contains 5 types of games, along with a mute and brightness setting option. 
+
+# Bill of Materials
+
+All the parts came in the Console Soldering Kit. The parts are listed below. 
+
+| **Part** | **Note** | **Price** | **Link** |
+|:--:|:--:|:--:|:--:|
+| Acrylic Encasing | Protects console and adds aesthetic feel | Estimated 15$ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Main PCB Board |  | Operating center of the game | | Estimated 20$ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| LED 8x8 Matrix Board | Displays the game | Estiamted 30$ (according to Amazon) | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Buttons and Power Switch | Allows user to interact with game | Estimated 10$ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
