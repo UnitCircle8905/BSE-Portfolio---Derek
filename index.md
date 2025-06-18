@@ -1,4 +1,4 @@
-# Object Tracking Robot
+d# Object Tracking Robot
 
 This robot relentlessly hunts down any object assigned to it! Tired of picking up balls during sports? Well, this is the robot for you.
 
@@ -98,7 +98,7 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 
 An advanced soldering project that I completed as a warm-up. Just like the name implies, this is a LED based arcade console with a retro fit. Two 8x8 LED matrix boards serve as a game screen, and 6 buttons were soldered in for the user to play. The acrylic casing protects the console and adds an aesthetic feel to the console, making it feel more solid and easier to hold. It is powered by 3 AAA batteries and contains 5 types of games, along with a mute and brightness setting option. 
 
-In the end, the project worked perfectly. A big challenge was soldering the two 8x8 LED matrices onto the PCB board -- since the board was very intricate, I needed to solder joints within close proximity of each other, which meant that the solder would easily goop out of place and connect two joints instead of one. This would cause a short circuit if not spotted in time -- so I had to be extra careful during this step. Another challenge was not inhaling the smoke -- I forgot to bring a face mask, and the fan did not do a really good job of sucking the metallic smoke away. I could not do much about this, though, other than wear glasses and hold my breath each time I tried to melt the metal. 
+In the end, the project worked perfectly. A big challenge was soldering the two 8x8 LED matrices onto the PCB board -- since the board was very intricate, I needed to solder joints within close proximity of each other, which meant that the solder would easily goop out of place and connect two joints instead of one. This would cause a short circuit if not spotted in time -- so I had to be extra careful during this step. 
 
 # Bill of Materials
 
@@ -110,3 +110,7 @@ All the parts came in the Console Soldering Kit. The parts are listed below.
 | Main PCB Board | Operating center of the game | Estimated 20$ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | LED 8x8 Matrix Board | Displays the game | Estiamted 30$ (according to Amazon) | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Buttons and Power Switch | Allows user to interact with game | Estimated 10$ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+
+# Starter Project Presentation
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=4dgTTYITtgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
