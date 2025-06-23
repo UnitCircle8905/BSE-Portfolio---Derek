@@ -1,4 +1,4 @@
-Object Tracking Robot
+# Object Tracking Robot
 
 This robot relentlessly hunts down any object assigned to it! Tired of picking up balls during sports? Well, this is the robot for you.
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
@@ -104,7 +104,7 @@ The arcade was an advanced soldering project that I completed as a warm-up. Just
 
 In the end, the project worked perfectly. A big challenge was soldering the two 8x8 LED matrices onto the PCB board -- since the board was very intricate, I needed to solder joints within close proximity of each other, which meant that the solder would easily goop out of place and connect two joints instead of one. This would cause a short circuit if not spotted in time -- so I had to be extra careful during this step. 
 
-<img src="(https://github.com/user-attachments/assets/419d1657-0833-454c-92bb-a9e95db0d1f5)" width="300" height="400">n
+<img src="https://github.com/user-attachments/assets/419d1657-0833-454c-92bb-a9e95db0d1f5" width="300" height="400">
 
 
 # Bill of Materials
