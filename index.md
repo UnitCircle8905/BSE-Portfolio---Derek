@@ -1,13 +1,12 @@
 Object Tracking Robot
 
 This robot relentlessly hunts down any object assigned to it! Tired of picking up balls during sports? Well, this is the robot for you.
-<!--- 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
 ```
--->
+
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Derek L | Irvington High School | Electrical Engineering / Computer Science / Quantum Computing | Incoming Junior
