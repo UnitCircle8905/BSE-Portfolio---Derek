@@ -12,7 +12,7 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Derek L | Irvington High School | Electrical Engineering / Computer Science / Quantum Computing | Incoming Junior
 
-[Headshot](https://github.com/user-attachments/assets/6bad424a-9478-41a8-83da-4c46421c0a5b)
+![Headshot](https://github.com/user-attachments/assets/6bad424a-9478-41a8-83da-4c46421c0a5b)>
 
   
 # Final Milestone
@@ -103,7 +103,7 @@ The arcade was an advanced soldering project that I completed as a warm-up. Just
 
 In the end, the project worked perfectly. A big challenge was soldering the two 8x8 LED matrices onto the PCB board -- since the board was very intricate, I needed to solder joints within close proximity of each other, which meant that the solder would easily goop out of place and connect two joints instead of one. This would cause a short circuit if not spotted in time -- so I had to be extra careful during this step. 
 
-embed<![image](https://github.com/user-attachments/assets/419d1657-0833-454c-92bb-a9e95db0d1f5)>
+![image](https://github.com/user-attachments/assets/419d1657-0833-454c-92bb-a9e95db0d1f5)>
 
 
 # Bill of Materials
