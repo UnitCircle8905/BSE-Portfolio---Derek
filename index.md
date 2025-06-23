@@ -106,6 +106,10 @@ In the end, the project worked perfectly. A big challenge was soldering the two 
 
 <img src="https://github.com/user-attachments/assets/419d1657-0833-454c-92bb-a9e95db0d1f5" width="300" height="300">
 
+# Starter Schematics
+
+<img src="https://github.com/user-attachments/assets/09c17658-9248-4e3c-97f1-e4670ab90f49" width="600" height="600">
+
 
 # Bill of Materials
 
