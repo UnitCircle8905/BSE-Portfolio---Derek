@@ -12,7 +12,7 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Derek L | Irvington High School | Electrical Engineering / Computer Science / Quantum Computing | Incoming Junior
 
-![Headshot](https://github.com/user-attachments/assets/6bad424a-9478-41a8-83da-4c46421c0a5b)>
+![Headshot]<img src="drawing.jpg" alt="drawing" width="200">(https://github.com/user-attachments/assets/6bad424a-9478-41a8-83da-4c46421c0a5b)>
 
   
 # Final Milestone
