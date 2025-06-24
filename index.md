@@ -1,15 +1,12 @@
 # Object Tracking Robot
 
 This robot relentlessly hunts down any object assigned to it! Tired of picking up balls during sports? Well, this is the robot for you.
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Derek L | Irvington High School | Electrical Engineering / Computer Science / Quantum Computing | Incoming Junior
 
 <img src="https://github.com/user-attachments/assets/6bad424a-9478-41a8-83da-4c46421c0a5b" width="300" height="400">
-
 <!---
 # Final Milestone
 
@@ -35,40 +32,27 @@ For your second milestone, explain what you've worked on since your previous mil
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- What needs to be completed before your final milestone
+-->
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SzkFIkVHrx8?si=s0iFrylLdsMsdEdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## Summary
+This first milestone, I aimed to finish the setup of the Raspberry Pi computer, ensuring basic functionality for ease of access later during the coding portion. This process was a tumultuous one, and I ran into multiple issues. Everything worked in the end, but I will nevertheless need to fix the Pi more over the next milestone. First, I flashed the SD card to access the Pi from my computer. Next, I used PuTTY to SSH into the Pi -- I ran into some issues with the Pi password from my computer terminal, so I had to walk around it with PuTTY. Afterwards, I used VS Code and related python modules to code SSH into the Pi, proving that the camera functions. I demonstrated taking a picture using the Pi camera during the demo to prove that the camera works. 
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+## Components Used
+- Raspberry Pi single-board computer
+- Extra set of Keyboard and Mouse
 
-# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+## Challenges
+Before I could access the Pi, I had to flash the SD Card. The SD Card flashing innately takes a long time -- adding on to the issue was that day the School internet was especially faulty. As a result, after flashing until 74%, it stopped several times, got stuck, and I had to restart out of fear of corruption due to the internet closing down mid-flash. The internet was on-off that day, and as a result I attempted restart three times, wasting precious time.
 
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+Another challenge I faced would be the SSH accessing process. My terminal would not boot into the Pi, no matter if I put the correct password or not. Thus, SSH via computer terminal was futile, so I had to do a walkaround with the PuTTY SSH, in which the password somehow worked.
 
-```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
-```
-
--->
+## Next Up
+Next milestone will involve the main coding portion of this project, where I will complete the bulk of the image recognition and robot maneuver code, mostly done in Python. The final milestone will involve putting it all together, where I build the chassis and wire the robot together, completing the hardware portion.
 
 # Bill of Materials
 
@@ -93,8 +77,6 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 -->
-
-To watch the BSE tutorial on how to create a portfolio, click here.
 
 # Starter Project Presentation: Mini Retro Arcade Console
 
