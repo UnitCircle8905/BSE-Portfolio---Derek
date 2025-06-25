@@ -8,6 +8,7 @@ This robot relentlessly hunts down any object assigned to it! Tired of picking u
 
 <img src="https://github.com/user-attachments/assets/6bad424a-9478-41a8-83da-4c46421c0a5b" width="300" height="400">
 <!---
+
 # Final Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -33,6 +34,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone
+
 -->
 
 # First Milestone
@@ -76,6 +78,7 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+
 -->
 
 # Starter Project Presentation: Mini Retro Arcade Console
