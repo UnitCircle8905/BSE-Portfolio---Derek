@@ -7,6 +7,7 @@ This robot relentlessly hunts down any object assigned to it! Tired of picking u
 | Derek L | Irvington High School | Electrical Engineering / Computer Science / Quantum Computing | Incoming Junior
 
 <img src="https://github.com/user-attachments/assets/6bad424a-9478-41a8-83da-4c46421c0a5b" width="300" height="400">
+
 <!---
 
 # Final Milestone
