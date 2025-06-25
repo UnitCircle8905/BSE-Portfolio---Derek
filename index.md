@@ -88,7 +88,7 @@ One of the best parts about Github is that you can view how other people set up 
 
 The arcade was an advanced soldering project that I completed as a warm-up. Just like the name implies, this is a LED based arcade console with a retro fit. Two 8x8 LED matrix boards serve as a game screen, and 6 buttons were soldered in for the user to play. The acrylic casing protects the console and adds an aesthetic feel to the console, making it feel more solid and easier to hold. It is powered by 3 AAA batteries and contains 5 types of games, along with a mute and brightness setting option. 
 
-In the end, the project worked perfectly. A big challenge was soldering the two 8x8 LED matrices onto the PCB board -- since the board was very intricate, I needed to solder joints within close proximity of each other, which meant that the solder would easily goop out of place and connect two joints instead of one. This would cause a short circuit if not spotted in time -- so I had to be extra careful during this step. 
+In the end, the project worked perfectly. A big challenge was soldering the two 8x8 LED matrices onto the PCB board -- since the board was very intricate, I needed to solder joints within close proximity of each other, which meant that the solder would easily goop out of place and connect two joints instead of one. This would cause a short circuit if not spotted in time -- so I had to be extra careful during this step. In the end, here is what it looks like.
 
 <img src="https://github.com/user-attachments/assets/419d1657-0833-454c-92bb-a9e95db0d1f5" width="300" height="300">
 
@@ -97,7 +97,7 @@ In the end, the project worked perfectly. A big challenge was soldering the two 
 <img src="https://github.com/user-attachments/assets/09c17658-9248-4e3c-97f1-e4670ab90f49" width="600" height="600">
 
 
-# Bill of Materials
+## Bill of Materials
 
 All the parts came in the Console Soldering Kit. The parts are listed below. 
 
