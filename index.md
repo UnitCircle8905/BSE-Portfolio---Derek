@@ -30,11 +30,12 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone
+## Components Used*
+- Raspberry Pi microcomputer
+- Raspberry Pi microcamera
+- Pi switch for easy power cycling
+
+* The first two milestones are mostly software, there are not much physical components used 
 
 -->
 
@@ -46,7 +47,7 @@ For your second milestone, explain what you've worked on since your previous mil
 This first milestone, I aimed to finish the setup of the Raspberry Pi computer, ensuring basic functionality for ease of access later during the coding portion. This process was a tumultuous one, and I ran into multiple issues. Everything worked in the end, but I will nevertheless need to fix the Pi more over the next milestone. First, I flashed the SD card to access the Pi from my computer. Next, I used PuTTY to SSH into the Pi -- I ran into some issues with the Pi password from my computer terminal, so I had to walk around it with PuTTY. Afterwards, I used VS Code and related python modules to code SSH into the Pi, proving that the camera functions. I demonstrated taking a picture using the Pi camera during the demo to prove that the camera works. 
 
 ## Components Used
-- Raspberry Pi single-board computer
+- Raspberry Pi microcomputer
 - Extra set of Keyboard and Mouse
 
 ## Challenges
