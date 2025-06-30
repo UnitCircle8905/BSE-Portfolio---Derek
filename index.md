@@ -21,23 +21,20 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
+-->
 
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Components Used*
-- Raspberry Pi microcomputer
-- Raspberry Pi microcamera
-- Pi switch for easy power cycling
+## New Components Used 
+- Raspberry Pi Camera Module
 
-* The first two milestones are mostly software, there are not much physical components used 
+## Challenges
+This milestone came with some pretty big challenges. First of all, I had cluttered my code with a lot of redundant information irrelvant to the goal. This is because I had never coded with Python before (but I have experience with Java and C++, so I have a general idea of logic and concepts such as for-loops but not syntax), and as a result I derived most of my code from the exemplar portfolio and websites on color detection. In the end, I managed to code my own program from the examples given, and it is much simpler and readable than the other ones. Lesson learned: you must write your own code and make your own calculations to truly understand how it works. It is better to use other sources for reference to get an idea of what to do, if I have no idea on how to get started. 
 
--->
+Second of all, the Pi and camera module kept 'mysteriously' quitting each time. Sometimes, it was software issues, and other times it was just my general lack of knowledge on how Pi cameras work. The first time, the camera kept not being found, even after I power-cycled multiple times. After 10 minutes of internet surfing, I finally found out that I needed to 'awaken' the camera via libcamera-hello command in terminal. Other issues like this involve similar ideology: when I switched Wifi for my Pi due to malfunctions with the prior one, I forgot to change my IP address when logging in, and this took around 15 minutes for me to find out what was going on. On the bright side, though, challenges like this have taught me a lot about how these microcontrollers and equipment work, and each time I face an obstacle, as cheesy as it sounds, I am learning something new. 
 
 # First Milestone
 
