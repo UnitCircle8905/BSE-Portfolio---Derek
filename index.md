@@ -34,8 +34,8 @@ This milestone was mainly getting the color masking to work. For the robot to ac
 Here is what the Pi sees as a result, with the mask shown below and the largest blob of red boxed in the original frame. 
 
 
-<img src="https://github.com/user-attachments/assets/05f28ae5-ddb5-4759-b697-380c30a26aea" width="600" height="1000">
-<img src="https://github.com/user-attachments/assets/3c5fa87e-7fbb-4b77-b76d-939059608a23" width="600" height="1000">
+<img src="https://github.com/user-attachments/assets/05f28ae5-ddb5-4759-b697-380c30a26aea" width="800" height="600">
+<img src="https://github.com/user-attachments/assets/3c5fa87e-7fbb-4b77-b76d-939059608a23" width="800" height="600">
 
 ## New Components Used 
 - Raspberry Pi Camera Module
@@ -58,7 +58,7 @@ This first milestone, I aimed to finish the setup of the Raspberry Pi computer, 
 An image of the newborn(!) Pi from my VNC is below
 
 
-<img src=https://github.com/user-attachments/assets/4befc68e-30eb-465f-bdf0-facae4d67537 width="800" height="1000">
+<img src=https://github.com/user-attachments/assets/4befc68e-30eb-465f-bdf0-facae4d67537 width="800" height="600">
 
 
 ## Components Used
