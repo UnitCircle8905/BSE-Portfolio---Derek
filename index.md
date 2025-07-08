@@ -1,4 +1,4 @@
-# Object Tracking Robot
+w# Object Tracking Robot
 
 This robot relentlessly hunts down any object assigned to it! Tired of picking up balls during sports? Well, this is the robot for you.
 
@@ -28,6 +28,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Summary
+This milestone was mainly getting the color masking to work. For the robot to actually detect the ball, it needs a camera, and with a camera it needs to be able to detect a certain color, in this case red. I will do this by using OpenCV masking, which in essence replaces all pixels other than the color detected with black, and pixels with the color detcted red. Then, a contour function creates contours around each blob of red detected in the image, turning them into individual objects. Afterwards, a largest contour foreloop automatically cycles out any smaller contours and only leaves the largest contour on the screen, and then draws a box around it to show its location and approximate center (thus an approximate direction to move in). Finally, the box is re-applied onto the original image frame. All this is done live and continuously via a while(true) loop, so that the video will automatically update itself each time. 
+
 ## New Components Used 
 - Raspberry Pi Camera Module
 
@@ -35,6 +38,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 This milestone came with some pretty big challenges. First of all, I had cluttered my code with a lot of redundant information irrelvant to the goal. This is because I had never coded with Python before (but I have experience with Java and C++, so I have a general idea of logic and concepts such as for-loops but not syntax), and as a result I derived most of my code from the exemplar portfolio and websites on color detection. In the end, I managed to code my own program from the examples given, and it is much simpler and readable than the other ones. Lesson learned: you must write your own code and make your own calculations to truly understand how it works. It is better to use other sources for reference to get an idea of what to do, if I have no idea on how to get started. 
 
 Second of all, the Pi and camera module kept 'mysteriously' quitting each time. Sometimes, it was software issues, and other times it was just my general lack of knowledge on how Pi cameras work. The first time, the camera kept not being found, even after I power-cycled multiple times. After 10 minutes of internet surfing, I finally found out that I needed to 'awaken' the camera via libcamera-hello command in terminal. Other issues like this involve similar ideology: when I switched Wifi for my Pi due to malfunctions with the prior one, I forgot to change my IP address when logging in, and this took around 15 minutes for me to find out what was going on. On the bright side, though, challenges like this have taught me a lot about how these microcontrollers and equipment work, and each time I face an obstacle, as cheesy as it sounds, I am learning something new. 
+
+## Next Up
+For the final milestone, I will finish the mechanical assembly of the robot and finish testing and integration of the final 2 systems, the motor drive system and the proximity sensor, along with the general wiring together of the robot, which I hope will be a straightforward process. 
 
 # First Milestone
 
