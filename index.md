@@ -32,6 +32,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 This milestone was mainly getting the color masking to work. For the robot to actually detect the ball, it needs a camera, and with a camera it needs to be able to detect a certain color, in this case red. I will do this by using OpenCV masking, which in essence replaces all pixels other than the color detected with black, and pixels with the color detcted red. Then, a contour function creates contours around each blob of red detected in the image, turning them into individual objects. Afterwards, a largest contour foreloop automatically cycles out any smaller contours and only leaves the largest contour on the screen, and then draws a box around it to show its location and approximate center (thus an approximate direction to move in). Finally, the box is re-applied onto the original image frame. All this is done live and continuously via a while(true) loop, so that the video will automatically update itself each time. https://github.com/user-attachments/assets/05f28ae5-ddb5-4759-b697-380c30a26aea
 
 Here is what the Pi sees as a result, with the mask shown below and the largest blob of red boxed in the original frame. 
+
+
 <img src="https://github.com/user-attachments/assets/05f28ae5-ddb5-4759-b697-380c30a26aea" width="600" height="1000">
 <img src="https://github.com/user-attachments/assets/3c5fa87e-7fbb-4b77-b76d-939059608a23" width="600" height="1000">
 
@@ -53,7 +55,9 @@ For the final milestone, I will finish the mechanical assembly of the robot and 
 ## Summary
 This first milestone, I aimed to finish the setup of the Raspberry Pi computer, ensuring basic functionality for ease of access later during the coding portion. This process was a tumultuous one, and I ran into multiple issues. Everything worked in the end, but I will nevertheless need to fix the Pi more over the next milestone. First, I flashed the SD card to access the Pi from my computer. Next, I used PuTTY to SSH into the Pi -- I ran into some issues with the Pi password from my computer terminal, so I had to walk around it with PuTTY. Afterwards, I used VS Code and related python modules to code SSH into the Pi, proving that the camera functions. I demonstrated taking a picture using the Pi camera during the demo to prove that the camera works.
 
-An image of the Pi from my VNC 
+An image of the newborn(!) Pi from my VNC is below
+
+
 <img src=https://github.com/user-attachments/assets/4befc68e-30eb-465f-bdf0-facae4d67537 width="800" height="1000">
 
 
