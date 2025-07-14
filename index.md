@@ -1,6 +1,6 @@
 # Object Tracking Robot
 
-This robot relentlessly hunts down any object assigned to it! Tired of picking up balls during sports? Well, this is the robot for you.
+This robot uses a color detection process from OpenCV masking and contour functions, along with a proximity sensor and Pi Camera, to follow the ball and park when within a certain proximity of the ball. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
