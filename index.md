@@ -144,6 +144,8 @@ This first milestone, I aimed to finish the setup of the Raspberry Pi computer, 
 
 An image of the newborn(!) Pi from my VNC is below
 
+
+
 <img src=https://github.com/user-attachments/assets/4befc68e-30eb-465f-bdf0-facae4d67537 width="800" height="600">
 
 
