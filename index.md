@@ -4,7 +4,7 @@ This robot relentlessly hunts down any object assigned to it! Tired of picking u
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Derek L | Irvington High School | Electrical Engineering / Computer Science / Quantum Computing | Incoming Junior
+| Derek L | Irvington High School | Electrical Engineering / Quantum Computing / LLM Research | Incoming Junior
 
 <img src="https://github.com/user-attachments/assets/6bad424a-9478-41a8-83da-4c46421c0a5b" width="300" height="400">
 
@@ -37,28 +37,6 @@ Here is what the Pi sees as a result, with the mask shown below and the largest 
 <img src="https://github.com/user-attachments/assets/05f28ae5-ddb5-4759-b697-380c30a26aea" width="800" height="600">
 <img src="https://github.com/user-attachments/assets/3c5fa87e-7fbb-4b77-b76d-939059608a23" width="800" height="600">
 
-## New Components Used 
-- Raspberry Pi Camera Module
-
-## Challenges
-This milestone came with some pretty big challenges. First of all, I had cluttered my code with a lot of redundant information irrelvant to the goal. This is because I had never coded with Python before (but I have experience with Java and C++, so I have a general idea of logic and concepts such as for-loops but not syntax), and as a result I derived most of my code from the exemplar portfolio and websites on color detection. In the end, I managed to code my own program from the examples given, and it is much simpler and readable than the other ones. Lesson learned: you must write your own code and make your own calculations to truly understand how it works. It is better to use other sources for reference to get an idea of what to do, if I have no idea on how to get started. 
-
-Second of all, the Pi and camera module kept 'mysteriously' quitting each time. Sometimes, it was software issues, and other times it was just my general lack of knowledge on how Pi cameras work. The first time, the camera kept not being found, even after I power-cycled multiple times. After 10 minutes of internet surfing, I finally found out that I needed to 'awaken' the camera via libcamera-hello command in terminal. Other issues like this involve similar ideology: when I switched Wifi for my Pi due to malfunctions with the prior one, I forgot to change my IP address when logging in, and this took around 15 minutes for me to find out what was going on. On the bright side, though, challenges like this have taught me a lot about how these microcontrollers and equipment work, and each time I face an obstacle, as cheesy as it sounds, I am learning something new. 
-
-## Next Up
-For the final milestone, I will finish the mechanical assembly of the robot and finish testing and integration of the final 2 systems, the motor drive system and the proximity sensor, along with the general wiring together of the robot, which I hope will be a straightforward process. 
-
-# First Milestone
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SzkFIkVHrx8?si=s0iFrylLdsMsdEdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## Summary
-This first milestone, I aimed to finish the setup of the Raspberry Pi computer, ensuring basic functionality for ease of access later during the coding portion. This process was a tumultuous one, and I ran into multiple issues. Everything worked in the end, but I will nevertheless need to fix the Pi more over the next milestone. First, I flashed the SD card to access the Pi from my computer. Next, I used PuTTY to SSH into the Pi -- I ran into some issues with the Pi password from my computer terminal, so I had to walk around it with PuTTY. Afterwards, I used VS Code and related python modules to code SSH into the Pi, proving that the camera functions. I demonstrated taking a picture using the Pi camera during the demo to prove that the camera works.
-
-An image of the newborn(!) Pi from my VNC is below
-
-
-<img src=https://github.com/user-attachments/assets/4befc68e-30eb-465f-bdf0-facae4d67537 width="800" height="600">
 
 ## Code
 
@@ -146,6 +124,30 @@ def drawrectangle():
 ```
 
 
+## New Components Used 
+- Raspberry Pi Camera Module
+
+## Challenges
+This milestone came with some pretty big challenges. First of all, I had cluttered my code with a lot of redundant information irrelvant to the goal. This is because I had never coded with Python before (but I have experience with Java and C++, so I have a general idea of logic and concepts such as for-loops but not syntax), and as a result I derived most of my code from the exemplar portfolio and websites on color detection. In the end, I managed to code my own program from the examples given, and it is much simpler and readable than the other ones. Lesson learned: you must write your own code and make your own calculations to truly understand how it works. It is better to use other sources for reference to get an idea of what to do, if I have no idea on how to get started. 
+
+Second of all, the Pi and camera module kept 'mysteriously' quitting each time. Sometimes, it was software issues, and other times it was just my general lack of knowledge on how Pi cameras work. The first time, the camera kept not being found, even after I power-cycled multiple times. After 10 minutes of internet surfing, I finally found out that I needed to 'awaken' the camera via libcamera-hello command in terminal. Other issues like this involve similar ideology: when I switched Wifi for my Pi due to malfunctions with the prior one, I forgot to change my IP address when logging in, and this took around 15 minutes for me to find out what was going on. On the bright side, though, challenges like this have taught me a lot about how these microcontrollers and equipment work, and each time I face an obstacle, as cheesy as it sounds, I am learning something new. 
+
+## Next Up
+For the final milestone, I will finish the mechanical assembly of the robot and finish testing and integration of the final 2 systems, the motor drive system and the proximity sensor, along with the general wiring together of the robot, which I hope will be a straightforward process. 
+
+# First Milestone
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SzkFIkVHrx8?si=s0iFrylLdsMsdEdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Summary
+This first milestone, I aimed to finish the setup of the Raspberry Pi computer, ensuring basic functionality for ease of access later during the coding portion. This process was a tumultuous one, and I ran into multiple issues. Everything worked in the end, but I will nevertheless need to fix the Pi more over the next milestone. First, I flashed the SD card to access the Pi from my computer. Next, I used PuTTY to SSH into the Pi -- I ran into some issues with the Pi password from my computer terminal, so I had to walk around it with PuTTY. Afterwards, I used VS Code and related python modules to code SSH into the Pi, proving that the camera functions. I demonstrated taking a picture using the Pi camera during the demo to prove that the camera works.
+
+An image of the newborn(!) Pi from my VNC is below
+
+
+<img src=https://github.com/user-attachments/assets/4befc68e-30eb-465f-bdf0-facae4d67537 width="800" height="600">
+
+
 ## Components Used
 - Raspberry Pi microcomputer
 - Extra set of Keyboard and Mouse
@@ -160,8 +162,7 @@ Next milestone will involve the main coding portion of this project, where I wil
 
 # Bill of Materials
 
-Here are the components necessary for my ball tracking robot, along with their uses and price. The links are the cheapest versions I could find availible.
-
+Here are the components necessary for my ball tracking robot, along with their uses and price.
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Breadboard | Reusable prototyping circuit board for circuit drafts, planning, and testing | 0.68$ | <a href="https://www.cytron.io/p-breadboard-8.5x5.5cm-400-holes"> Link </a> |
