@@ -60,6 +60,91 @@ An image of the newborn(!) Pi from my VNC is below
 
 <img src=https://github.com/user-attachments/assets/4befc68e-30eb-465f-bdf0-facae4d67537 width="800" height="600">
 
+## Code
+
+```python
+from picamera2 import Picamera2
+import cv2
+import time
+
+def maskon(dframe):
+    global redmask
+    lower = np.array([0, 0, 150])   # Bound range for red color
+    upper = np.array([100, 100, 255])  
+
+
+    # lower = np.array([150, 0, 0]) # If you want a BLUE ball
+    # upper = np.array([255, 100, 100])  
+
+
+    redmask = cv2.inRange(dframe, lower, upper) # For color in range, highlight
+
+    (h,w) = redmask.shape # Height and Width of entire mask
+    return redmask
+
+
+def largestcontour(dmask):
+           
+    contours, hierarchy = cv2.findContours(dmask, cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE) # Function from OpenCV to detect contours
+
+
+    contourslist = [] # List of contours, later to be filtered
+   
+    for cnt in contours:
+        contourslist.append(cnt) # Add contours to contourslist
+       
+    if(len(contourslist) > 0): # If contours EXIST
+        maxcontour = contourslist[0] # Initialize
+        maxarea = cv2.contourArea(contourslist[0]) # Maximum area 
+
+
+       
+        for i in range(len(contourslist)): # For loop to sort out largest contour
+            nowarea = cv2.contourArea(contourslist[i])
+            if (nowarea > maxarea):
+                maxarea = nowarea
+                maxcontour = contourslist[i]
+
+
+        return maxcontour 
+
+
+def drawrectangle():
+    global frame
+    global center_x
+    global center_y
+
+
+    frame = camra.capture_array() # Captures video of camera
+    frame = np.asarray(frame)
+    height = frame.shape[0]
+    width = frame.shape[1]
+
+
+    center_x = 0
+    center_y = 0
+    frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+    maskred = maskon(frame)
+
+
+   
+    conter = largestcontour(maskred)
+   
+    (x,y,w,h) = cv2.boundingRect(conter)
+    cv2.rectangle(frame, (x,y), (x+w,y+h), (0, 255, 0), 2)
+
+
+    ballcoords[0] = x+w/2 # Coordinates of center of contour that is on the ball (hopefully)
+    ballcoords[1] = y+h/2
+
+
+    rectanglesize[0] = w # Width and height of the rectangle, for use in thresholds later
+    rectanglesize[1] = h
+
+
+
+```
+
 
 ## Components Used
 - Raspberry Pi microcomputer
