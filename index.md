@@ -29,7 +29,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A1Gcot1nlMw?si=G1XRxM19wIM34EA7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Summary
-This milestone was mainly getting the color masking to work. For the robot to actually detect the ball, it needs a camera, and with a camera it needs to be able to detect a certain color, in this case red. I will do this by using OpenCV masking, which in essence replaces all pixels other than the color detected with black, and pixels with the color detcted red. Then, a contour function creates contours around each blob of red detected in the image, turning them into individual objects. Afterwards, a largest contour foreloop automatically cycles out any smaller contours and only leaves the largest contour on the screen, and then draws a box around it to show its location and approximate center (thus an approximate direction to move in). Finally, the box is re-applied onto the original image frame. All this is done live and continuously via a while(true) loop, so that the video will automatically update itself each time. https://github.com/user-attachments/assets/05f28ae5-ddb5-4759-b697-380c30a26aea
+This milestone was mainly getting the color masking to work. For the robot to actually detect the ball, it needs a camera, and with a camera it needs to be able to detect a certain color, in this case red. I will do this by using OpenCV masking, which in essence replaces all pixels other than the color detected with black, and pixels with the color detcted red. Then, a contour function creates contours around each blob of red detected in the image, turning them into individual objects. Afterwards, a largest contour foreloop automatically cycles out any smaller contours and only leaves the largest contour on the screen, and then draws a box around it to show its location and approximate center (thus an approximate direction to move in). Finally, the box is re-applied onto the original image frame. All this is done live and continuously via a while(true) loop, so that the video will automatically update itself each time. 
 
 Here is what the Pi sees as a result, with the mask shown below and the largest blob of red boxed in the original frame. 
 
@@ -144,7 +144,6 @@ This first milestone, I aimed to finish the setup of the Raspberry Pi computer, 
 
 An image of the newborn(!) Pi from my VNC is below
 
-
 <img src=https://github.com/user-attachments/assets/4befc68e-30eb-465f-bdf0-facae4d67537 width="800" height="600">
 
 
@@ -163,6 +162,7 @@ Next milestone will involve the main coding portion of this project, where I wil
 # Bill of Materials
 
 Here are the components necessary for my ball tracking robot, along with their uses and price.
+
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Breadboard | Reusable prototyping circuit board for circuit drafts, planning, and testing | 0.68$ | <a href="https://www.cytron.io/p-breadboard-8.5x5.5cm-400-holes"> Link </a> |
