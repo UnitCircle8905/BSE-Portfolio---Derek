@@ -23,6 +23,15 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you hope to learn in the future after everything you've learned at BSE
 -->
 
+## Summary
+
+The final milestone involves the complete integration of the modules from the previous two milestones (the Raspberry Pi camera and the Pi 4B computer), along with the complete mechanical, electrical, and software assembly of the project. This mainly involved putting together new modules and the coding portions for them. However, do note that most of this mainly revolved around the Pi camera's input, which effectively serves as the system's eye. First of all, I put together the dual-motor system with the L298N motor drive board, which controls speed, current, and direction of the motors, along with system installation of the motors themselves. By obtaining the center coordinates of the contour rectangle (from milestone 2) and comparing it to the camera frame's total pixels, I was able to find out whether the robot should go forward, left, or right (based on how far off the center is from the x-value center of the camera) by setting a buffer. Plus, by using the Enable pins on the drive board and controlling the PWM, indirect adjustment to the motor's speed could be achieved. 
+
+I also implemented the ultrasonic distance sensor, which would detect distance using ultrasound pulses. There are 4 pins -- aside from VCC (voltage common collector) and ground to provide power, there is the trigger and echo. Trigger sends out a set of 8 ultrasound pulse every 10 microseconds; Echo, on the other hand, recieves the pulses and calculates the average time it took for all 8 to bounce back. Halving this duration and multiplying it by the speed of sound, we can find an estimation of how far the robot is from anything directly in front of it. This way, when the ball is close enough to the robot, the robot will know to "park", or stop moving. Using the implemented motors and sensor, I can make the robot successfully follow the ball. Additionally, I added a feature such that if the robot does not find the ball, it circles idly in a given direction until some red contour with area large enough to surpass threshold (a custom variable I set and tweaked) appears in the camera frame. Just like that, my project is complete! 
+
+## Challenges (oh boy)
+
+As most engineers would know, engineering is not all sunshine and rainbows -- just when you think everything is going great, something, just _something_, has to pop up -- and this is quite literally what I faced. 
 
 # Second Milestone
 
