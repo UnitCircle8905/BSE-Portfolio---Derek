@@ -8,7 +8,7 @@ This robot uses a color detection process from OpenCV masking and contour functi
 
 <img src="https://github.com/user-attachments/assets/6bad424a-9478-41a8-83da-4c46421c0a5b" width="300" height="400">
 
-# Demo Night Video (Final Product Presentation)
+# Final Product Presentation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ti-eEcj8wcg?si=QClaS7PNN9gDwP6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
