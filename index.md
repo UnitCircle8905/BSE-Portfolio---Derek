@@ -8,20 +8,11 @@ This robot uses a color detection process from OpenCV masking and contour functi
 
 <img src="https://github.com/user-attachments/assets/6bad424a-9478-41a8-83da-4c46421c0a5b" width="300" height="400">
 
-<!---
+# Demo Night Video (Final Product Presentation)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ti-eEcj8wcg?si=QClaS7PNN9gDwP6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Final Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
--->
 
 ## Summary
 
@@ -39,7 +30,9 @@ Second was my pair of motors. I used a pair of yellow "hobby" DC motors, with tw
 
 Later, whe I was conducting my modification, a tank chassis, I scrapped the two old motors and replaced them with 4 new ones. I tested it... and the left one was again turning too slow. I swapped a drive board, the left motor, and even another Chassis. Nope -- the left motor was still too weak. I used a multimeter to measure voltage to both motors, and aha! The left motor was receiving less current. This was strange, as it was not this case last time. By testing, I swapped the Enable pins. Normally, the left Enable should be running at full power and the right should be weak (to compensate for the issue), but after I swapped them, the right motor started running low. After setting both pins to equal power, the robot finally could move flawlessly. This was just unfortunate: a mechanical flaw caused me to overcompensate in software, and after the flaw disappeared, a careless mismatch gave the impression of the flaw's reappearance, expending unnecessary and avoidable quantities of time and effort. 
 
+## What's next?
 
+Next up will be my modifications. I plan to add a 4-servo system claw that will grab the ball and pick it up when the robot gets to the ball -- this is in rpeperation for possible future self-driven modifications I can add for the robot ot pick up the ball and return it to its original position. Second of all, I will add a tank chassis to better carry the weight (4 motors is better than 2), and I will also custom CAD and 3D print a casing for my robot, such that the components are held together more securely and more pleasing aesthetic.
 
 # Second Milestone
 
