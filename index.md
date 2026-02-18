@@ -12,6 +12,10 @@ This robot uses a color detection process from OpenCV masking and contour functi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ti-eEcj8wcg?si=QClaS7PNN9gDwP6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Summary
+
+Implemented 4-servo arm mechanism, robot succcessfully picks up ball. Fixed motor issues by ramming more power through uneven motors, and implemented tank chassis, CADding the connection between robot and chassis. Printed claws allow for better grip of the ball -- overall, my robot was a massive success, considering the sticky situation I had been in just a week earlier. Tips to anyone who builds this: caffeine-free lives and sleep schedules are your final weapon, but once used you are capable of doing anything. 
+
 # Final Milestone
 
 ## Summary
@@ -32,7 +36,7 @@ Later, whe I was conducting my modification, a tank chassis, I scrapped the two 
 
 ## What's next?
 
-Next up will be my modifications. I plan to add a 4-servo system claw that will grab the ball and pick it up when the robot gets to the ball -- this is in rpeperation for possible future self-driven modifications I can add for the robot ot pick up the ball and return it to its original position. Second of all, I will add a tank chassis to better carry the weight (4 motors is better than 2), and I will also custom CAD and 3D print a casing for my robot, such that the components are held together more securely and more pleasing aesthetic.
+Next up will be my modifications. I plan to add a 4-servo system claw that will grab the ball and pick it up when the robot gets to the ball -- this is in preperation for possible future self-driven modifications I can add for the robot ot pick up the ball and return it to its original position. Second of all, I will add a tank chassis to better carry the weight (4 motors is better than 2), and I will also custom CAD and 3D print a casing for my robot, such that the components are held together more securely and more pleasing aesthetic.
 
 # Second Milestone
 
